@@ -7,7 +7,7 @@ function education(){
 }
 const address={
     primaryadd:"Timergara Rabaat Dir Lower",
-    secodaryadd:"Peshawar HayatAbat ",
+    secodaryadd:"Peshawar HayatAbad ",
     stree:"st 5"
 }
 export default name;
