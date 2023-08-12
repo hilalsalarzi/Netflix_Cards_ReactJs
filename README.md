@@ -1,3 +1,5 @@
+![A beautiful Cards](./2023-08-12%20(1).png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Screenshots
+![A beautiful Cards](./2023-08-12%20(2).png)
+![A beautiful Cards](./2023-08-12%20(3).png)
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
