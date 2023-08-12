@@ -23,7 +23,7 @@ return(
 <div className="div">
 <img src={pic} alt="new picture from lorem picsum"/>
 <a href={link}>
-<img src={pic1} alt="mountain picture from lorem picsum" className="ctpic"/></a>
+<img src={pic1} alt="mountain picture from lorem picsum" style={{width:"90%"}} className="ctpic"/></a>
 <img src={pic2} alt="random picture from lorem picsum"/>
 </div>
 </>
