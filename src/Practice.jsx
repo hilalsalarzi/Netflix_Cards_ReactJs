@@ -11,7 +11,7 @@ import * as biodat from './Componant/BioData';
 import * as Cal from './Componant/Calculator';
 // import sum,{Div,Sub,Mult} from './Componant/Calculator';
 
-import map1 from './Componant/map';
+import map1,{mapfun} from './Componant/map';
 
 
 
@@ -39,6 +39,7 @@ return (<>
    <p>Subtriction {Cal.Sub(35,5)}</p>
    <p>Division {Cal.Div(20,5)}</p>
    
+   
    {/* <p>Addition {sum(3,5)}</p>
    <p> Multiplication {Mult(3,5)}</p>
    <p>Subtriction {Sub(35,5)}</p>
@@ -46,6 +47,7 @@ return (<>
    
 <h1>functions</h1>
 <p>{`This is map  function  ${map1()}`}</p>
+<p>{`This is map  function with FAT Arrow  ${mapfun()}`}</p>
 
 
     {/* <h1 style={{textAlign:"center"}}>Hello Sir, <span style={cssStyle}>{greating()}</span></h1>
