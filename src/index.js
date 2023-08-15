@@ -9,7 +9,7 @@ import './index.css';
 ReactDOM.render(
 <>
 <App/>
-{/* <Practice/> */}
+<Practice/>
 </>,
 document.getElementById("root")
 );
