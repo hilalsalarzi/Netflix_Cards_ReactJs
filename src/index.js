@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom";
-import App from './App';
+import CardMap from './CardMap';
 import Practice from './Practice';
 import './index.css';
 // import Greeting from './Componant/Greeting';
@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.render(
 <>
-<App/>
+<CardMap/>
 <Practice/>
 </>,
 document.getElementById("root")

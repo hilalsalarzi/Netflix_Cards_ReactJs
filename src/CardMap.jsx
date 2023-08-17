@@ -14,7 +14,7 @@ import CardData from './Componant/CardData';
 // }
 
 // here we are making componants 
-function App(){
+function CardMap(){
 return (<>
 <h1>Netflix Top Series</h1>
  <div className='netseries'>
@@ -26,7 +26,7 @@ return (
    imagsrc={val.imagsrc}
     alt={val.alt}
      title={val.title}
-     name={val.name}
+     sname={val.name}
      link={val.link}
      />
 );
@@ -36,4 +36,28 @@ return (
   
     </>)
 };
-export default App;
+export default CardMap;
+
+ //we used fat arrow function
+// App App(){
+//    return (<>
+//    <h1>Netflix Top Series</h1>
+//     <div className='netseries'>
+//    {CardData.map((val)=>{
+   
+//    return (
+//       <Card
+//       key={val.id}
+//       imagsrc={val.imagsrc}
+//        alt={val.alt}
+//         title={val.title}
+//         sname={val.name}
+//         link={val.link}
+//         />
+//    );
+//    })}
+   
+//     </div>
+     
+//        </>)
+//    };
